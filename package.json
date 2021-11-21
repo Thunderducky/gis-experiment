@@ -13,8 +13,12 @@
         "webpack-dev-server": "^3.11.2"
     },
     "scripts": {
-        "serve":"webpack serve --open",
+        "serve": "webpack serve --open",
         "watch": "webpack --watch",
         "build": "webpack"
+    },
+    "dependencies": {
+        "shapefile-parser": "^1.0.3",
+        "ts-node": "^10.4.0"
     }
 }
